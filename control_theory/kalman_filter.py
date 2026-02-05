@@ -26,17 +26,18 @@ for n in range(1,51):
 
 # グラフ1: 真の状態 X と 推定値 M
 plt.figure(figsize=(10, 4))
-plt.subplot(1, 2, 1) # 横に2つ並べる左側
-plt.plot(X, color='gray', lw=3, label='True state X')
-plt.plot(M, color='red', lw=1, label='Estimate M')
+plt.subplot(1, 2, 1)
+plt.plot(X, color='gray', lw=3, label=r'True state $X_n$')
+plt.plot(M, color='red', lw=1, label=r'Estimate $m_n$ ($\mu_n$)') 
 plt.title('State Estimation')
 plt.legend()
 
 # グラフ2: 推定値 M と エラーバー T (標準偏差)
-plt.subplot(1, 2, 2) # 右側
+plt.subplot(1, 2, 2)
 steps = range(len(M))
-plt.errorbar(steps, M, yerr=T, fmt='-b', ecolor='r', capsize=2) 
+plt.errorbar(steps, M, yerr=T, fmt='-b', ecolor='r', capsize=2, label=r'Uncertainty $t_n$ ($\tau_n$)')
 plt.title('Estimation with Error Bars')
+plt.legend()
 
 plt.tight_layout()
 plt.show()

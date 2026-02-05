@@ -19,7 +19,7 @@ for n in range(1, 2001):
 
 plt.figure(figsize=(10, 5))
 plt.plot(X, label=r'Estimated Value $x_n$ ($\mu_n$)', color='blue', lw=1)
-plt.plot(T, label='Uncertainty $t_n$ ($\tau_n$)', color='red', lw=1.5)
+plt.plot(T, label=r'Uncertainty $t_n$ ($\tau_n$)', color='red', lw=1.5)
 plt.axhline(true, color='black', linestyle='--', label='True Value')
 plt.title('Bayesian Estimation Process')
 plt.xlabel('Steps (n)')
