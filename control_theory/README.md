@@ -19,7 +19,7 @@ $$\mu_n = \mu_{n-1} + \frac{c\tau_{n-1}}{1+c^2\tau_{n-1}}(y_n - c\mu_{n-1})$$
 **分散 $\tau_n$ の更新:**
 $$\tau_n = \frac{\tau_{n-1}}{1+c^2\tau_{n-1}}$$
 
-![Bayesian Estimation](../images/bayesian_convergence.png)
+![Bayesian Estimation](./images/bayesian_convergence.png)
 
 ---
 
@@ -39,4 +39,4 @@ $$\mu_n = a\mu_{n-1} + K(y_n - c\mu_{n-1})$$
 **分散 $\tau_n$ の更新:**
 $$\tau_n = \frac{a^2\tau_{n-1}+b^2}{1+c^2(a^2\tau_{n-1}+b^2)}$$
 
-![Kalman Filter](../images/kalman_filter.png)
+![Kalman Filter](./images/kalman_filter.png)
