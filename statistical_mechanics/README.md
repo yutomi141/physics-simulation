@@ -18,11 +18,11 @@
 
 ### 1. Ordered Phase (Low Temperature: T=1.0)
 エネルギー最小化が支配的となり、スピンが整列している（強磁性状態）。
-![T=1.0](./ising_result_T1.0.png)
+![T=1.0](./images/ising_result_T1.0.png)
 
 ### 2. Critical Fluctuation (Critical Point: T=2.3)
 相転移点付近。自己相似的な「ゆらぎ」が観測された。
-![T=2.3](./ising_result_T2.3.png)
+![T=2.3](./images/ising_result_T2.3.png)
 
 ## Usage
 ```bash
