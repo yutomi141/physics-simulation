@@ -30,13 +30,14 @@ $$f(\boldsymbol{v})=N \frac{1}{(2 \pi m k_B T)^{\frac{3}{2}}} exp\left(-\frac{mv
 $$\frac{df(v_{mp})}{dv}=0$$
 
 平均速さ
+
 $$\bar{v} = \int_{0}^{\infty} vf(v) dv$$
 
 二乗平均速度
+
 $$v_{rms} = \sqrt{\int_{0}^{\infty} v^2f(v) dv}$$
 
 ## 結果
 ![T=300K](./images/Maxwell_Boltzmann.png)
 
-
-大部分の分子はおおよそ$p\sim\sqrt{m k_B T}$の領域に分布していることがわかる。
+大部分の分子はおおよそ $p \sim \sqrt{m k_B T}$ の領域に分布していることがわかる。
